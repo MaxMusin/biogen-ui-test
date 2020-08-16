@@ -309,8 +309,9 @@ const DropdownWrapper = styled(Dropdown)`
       position: absolute;
       width: 42px;
       height: 42px;
-      left: 9px;
-      top: 15px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
       z-index: 40;
       border-radius: 20px;
       transition: opacity 0.35s ease-out;
