@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import {StoreContext} from '../../context/StoreContext'
 
 // => Components
-import Navbar from './Navbar';
+import Navbar from '../nav/Navbar';
 
 const Wrapper = styled.div`
   ${props => {

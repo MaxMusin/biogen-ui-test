@@ -52,8 +52,6 @@ const Dropdown = ({ children, className }) => {
 
   return (
     <DropdownWrapper
-      onMouseEnter={() => setToggle(true)}
-      onMouseLeave={() => setToggle(false)}
       ref={node}
       className={className}
     >
